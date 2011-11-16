@@ -42,7 +42,7 @@ h1, h2{
     margin-right:auto;
     text-align:center;
 }
-#new_crush_button {
+#new_item_button {
     padding:15px;
     background-color:#f5f5f5;
     color:#000;
@@ -55,13 +55,13 @@ h1, h2{
     margin-right:auto;
     text-align:center;
 }
-#new_crush_button:hover{
+#new_item_button:hover{
     font-weight:bold;
     background-color:#fff;
     border:solid 1px #333;
     cursor:pointer;
 }
-.postbox, #new_crush_box{
+.postbox, #new_item_box{
     margin-top:15px;
     border:solid 1px #ccc;
     padding:15px;
