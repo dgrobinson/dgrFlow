@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
-    //what happens when you click the new crush button?
-    $('#new_crush_button').click(insertNewPost);
+    //what happens when you click the new item button?
+    $('#new_item_button').click(insertNewPost);
     
     //what happens when you click the submit post button?
     $('#submit_post').click(submitPost);
@@ -24,8 +24,8 @@ $(document).ready(function(){
 //Our insert post function
 function insertNewPost(){
     //hide the button and show our new post box
-    $('#new_crush_button').hide();
-    $('#new_crush_box').show();
+    $('#new_item_button').hide();
+    $('#new_item_box').show();
 }
 
 
@@ -39,10 +39,10 @@ function submitPost(){
    $new_post.find(".post_time").html( "just now.");
    
    //insert the new post in the page
-   $('#new_crush_box').after($new_post);
+   $('#new_item_box').after($new_post);
    
    //then hide the new_post box and re show the new button
-   $('#new_crush_box').hide();
-   $('#new_crush_button').show();
+   $('#new_item_box').hide();
+   $('#new_item_button').show();
 
 }
